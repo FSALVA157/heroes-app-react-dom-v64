@@ -26,7 +26,7 @@ export const HeroPage = () => {
   return (
     <div className="row mt-5">
         <div className="col-4">
-          <img src={`/assets/heroes/${id}.jpg`} className="img-thumbnail animate__animated animate__fadeInLeft" ></img>
+          <img src={`/heroes/${id}.jpg`} className="img-thumbnail animate__animated animate__fadeInLeft" ></img>
         </div>
 
         <div className="col-8">

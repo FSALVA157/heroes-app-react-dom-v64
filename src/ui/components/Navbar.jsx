@@ -19,12 +19,11 @@ export const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-sm navbar-dark bg-dark px-3">
             
-            <Link 
-                className="navbar-brand" 
-                to="/"
+            <h2 
+                className="navbar-brand"                
             >
-                Asociaciones
-            </Link>
+                Heroes App
+            </h2>
 
             <div className="navbar-collapse">
                 <div className="navbar-nav">

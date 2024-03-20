@@ -9,7 +9,7 @@ const { id, superhero, publisher, alter_ego, first_appearance, characters } = he
         <div className="card">
             <div className="row no-gutters">
                 <div className="col-md-4">
-                    <img src={`./assets/heroes/${id}.jpg`} className="card-img animate__animated animate__fadeIn" alt={superhero} />
+                    <img src={`/heroes/${id}.jpg`} className="card-img animate__animated animate__fadeIn" alt={superhero} />
                 </div>
                 <div className="col-md-8">
                     <div className="card-body">
